@@ -9,7 +9,7 @@ pipelineJob('k8s-frontend-backend-app-deploy-pipeline') {
                         //url 'https://your-git-repository-url/sample10.git'
                         url 'https://github.com/Unnikrishnan-K-M/k8s_frontend_backend_app.git'
                         //credentials('your-git-credentials-id') // Replace with your Jenkins credentials ID for Git
-                        credentials('Git-Access-From-Jenkins-For-DSL-Repo') // Replace with your Jenkins credentials ID for Git 
+                        credentials('git-access-on-Jenkins-token') // Replace with your Jenkins credentials ID for Git 
                     }
                     branch 'main' // Replace with your branch name
                 }
